@@ -1,0 +1,10 @@
+{
+  "name": "pi-keys",
+  "version": "0.1.0",
+  "description": "Environment API-key rotation using Pi's existing retries",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./index.js"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "scripts": { "test": "node --test" }
+}
