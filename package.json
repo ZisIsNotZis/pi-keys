@@ -1,9 +1,14 @@
 {
   "name": "pi-keys",
   "version": "0.1.0",
-  "description": "Environment API-key rotation using Pi's existing retries",
+  "description": "Environment API-key rotation for Pi with Pi-owned retries",
   "type": "module",
-  "keywords": ["pi-package"],
+  "license": "AGPL-3.0-only",
+  "keywords": ["pi-package", "pi-extension", "api-keys", "key-rotation"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZisIsNotZis/pi-keys.git"
+  },
   "pi": { "extensions": ["./index.js"] },
   "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
   "scripts": { "test": "node --test" }

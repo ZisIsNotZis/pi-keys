@@ -4,3 +4,10 @@ node_modules/
 .env.*
 !.env.example
 *.log
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
