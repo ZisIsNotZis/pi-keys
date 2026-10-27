@@ -21,7 +21,7 @@ pi -e ./index.js
 也可以把扩展安装到 Pi：
 
 ```bash
-pi install /absolute/path/to/pi-keys
+pi install "$PWD"
 ```
 
 配置到此为止：没有运行时依赖，没有构建步骤，也不需要单独的轮换配置文件。
@@ -132,3 +132,5 @@ PI_KEYS_SMOKE=1 npm test    # 可选：用真实 Pi 重试运行的端到端测�
 ## 许可证
 
 基于 GNU Affero 通用公共许可证第 3 版发布。参见 [LICENSE](LICENSE)。
+
+版权所有 © ZisIsNotZis。

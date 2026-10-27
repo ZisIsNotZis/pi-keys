@@ -21,7 +21,7 @@ pi -e ./index.js
 Or install the extension into Pi:
 
 ```bash
-pi install /absolute/path/to/pi-keys
+pi install "$PWD"
 ```
 
 That is the whole setup: no runtime dependencies, no build step, and no separate rotation configuration file.
@@ -132,3 +132,5 @@ The future vision is deliberately small: key pools should behave like one durabl
 ## License
 
 Licensed under the GNU Affero General Public License v3.0. See [LICENSE](LICENSE).
+
+Copyright © ZisIsNotZis.
